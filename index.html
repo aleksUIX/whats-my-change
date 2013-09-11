@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html ng-app>
+	<head>
+		<link rel="stylesheet" href="css/bootstrap.css" />
+		<link rel="stylesheet" href="css/styles.css" />
+		<script type="text/javascript" src="js/jquery.js"></script>
+		<script type="text/javascript" src="js/angular.min.js"></script>
+		<script type="text/javascript" src="js/bootstrap.js"></script>
+		<script type="text/javascript" src="js/app.js"></script>
+	</head>
+	<body>
+		<h1 class="text-center">Hello!</h1>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8 col-md-offset-2" ng-controller="changeController">
+					<form role="form" class="form-inline">
+						<div class="form-group">
+							Please input the product <label for="priceVal" class="sr-only">price</label><input type="text" value="" name="priceVal" class="form-control" placeholder="price" ng-model="params.price"/> and the amount tendered <label for="amountVal" class="sr-only">Amount</label><input type="text" name="amountVal" class="form-control" value="" placeholder="amount" ng-model="params.amount"/> 
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
