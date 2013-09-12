@@ -1,6 +1,13 @@
 ﻿<!DOCTYPE html>
-<html ng-app>
+<html lang="en-GB">
 	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<title>currency calculator</title>
+		<meta name="description" content="This is an online change calculator. The calculator will return the amount and type of coins or banknotes to be returned to the person purchasing the product.">
+		<meta name="author" content="Aleksander Sekowski">
+		<meta name="viewport" content="width=device-width,initial-scale=1">
+
 		<link rel="stylesheet" href="css/bootstrap.css" />
 		<link rel="stylesheet" href="css/styles.css" />
 		<link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css" rel="stylesheet">
@@ -41,7 +48,7 @@
 						%>
 							<div class="currency-unit-container">
 								<div class="img-container">
-									<img src="img/<%= key %>.png" />
+									<img src="img/<%= key %>.png" alt="<%= key %> of <%= change[key] %>"/>
 								</div>
 								<span aria-labelledby="<%= key %> of <%= change[key] %>">
 									<%= change[key] %>
