@@ -78,7 +78,6 @@ p.leader {
 	width: 50%;
 	position: relative;
 	float: left;
-	overflow: hidden;
 }
 
 /* responsive */

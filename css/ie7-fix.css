@@ -38,3 +38,10 @@
 	height:400px;
 	width: 400px;
 }
+
+.chart-container div {
+	width: 400px;
+	position: static;
+	float: left;
+	overflow: visible;
+}
