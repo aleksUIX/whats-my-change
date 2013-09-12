@@ -1,0 +1,40 @@
+.form-group .input-group-addon {
+	display: none;
+	visibility: hidden;
+	width: 0px;
+	height: 0px;
+	clear: none;
+	overflow: hidden;
+	zoom:1;
+}
+
+.form-group .form-control {
+	clear: both;
+	display: block;
+	float: left;
+	zoom:1;
+	margin-bottom: 20px;
+	height: 30px;
+	line-height: 30px;
+	padding: 0px;
+}
+
+.form-group .text {
+	display: block;
+	margin-top: 20px;
+}
+
+.currency-unit-container {
+	display: block;
+	float: left;
+}
+
+#change-chart-type {
+	height:400px;
+	width: 400px;
+}
+
+#change-chart-category{
+	height:400px;
+	width: 400px;
+}
